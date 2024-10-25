@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">My Portfolio</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Educational Background</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#research">Research Thrust Area</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#courses">Courses Completed</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>This is a platform to showcase my work, experiences, and achievements.</p>
+            <button class="cta" id="learnMore">Learn More</button>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a dedicated professional with a passion for learning and growth.</p>
+        </section>
+
+        <section id="education">
+            <h2>Educational Background</h2>
+            <p>Details about my education.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>Details about my work experience.</p>
+        </section>
+
+        <section id="publications">
+            <h2>Paper/Patent Publications</h2>
+            <p>Details about my publications.</p>
+        </section>
+
+        <section id="awards">
+            <h2>Awards and Achievements</h2>
+            <p>Details about my awards.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Details about my projects.</p>
+        </section>
+
+        <section id="membership">
+            <h2>Membership</h2>
+            <p>Details about my memberships.</p>
+        </section>
+
+        <section id="research">
+            <h2>Research Thrust Area</h2>
+            <p>Details about my research areas.</p>
+        </section>
+
+        <section id="events">
+            <h2>List of Events</h2>
+            <p>Details about events organized/attended.</p>
+        </section>
+
+        <section id="courses">
+            <h2>Courses Completed</h2>
+            <p>Details about courses completed.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <button class="cta" id="contactButton">Open Contact Form</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal for Contact Form -->
+    <div class="modal" id="contactModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                
+                <button type="submit" class="cta">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
